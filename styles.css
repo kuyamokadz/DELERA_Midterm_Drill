@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.certificate {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.university-logo {
+    max-width: 100px;
+    margin-right: 20px
+}
+.university-info {
+    line-height: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.certificate-title {
+    letter-spacing: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registration {
+    margin-left: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.red-text {
+    color: #800000;
+}
+.GenInfo{
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(156, 156, 248, 0.973);
+    text-align: center;
+}
+.student-info {
+    border-style: solid;
+    border-color: black;
+
+}
+.bold{
+    font-weight: bold;
+}
+.center-text {
+    text-align: center;
+}
+table{
+    height: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 1px 1px;
+    text-align: left;
+}
+.blank{
+    border-style: solid;
+    padding: 5px;
+}
+.sched-header{
+    background-color: rgb(156, 156, 248, 0.973);
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+}
+.sched-details{
+    font-weight: normal;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+  }
+.sched-header-arr{
+    justify-content: center;
+    text-align: center;
+}
+.sched-details-arr{
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+}
+.total-units {
+    padding-left: 65%;
+}
+.note{
+    font-style: italic;
+    border-width: 0px 1px;
+}
+.amount-details{
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 20px;
+}
+.table-assessed-fees {
+    width: 100%;
+    background-color: rgb(156, 156, 248, 0.973); 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.assessed-fees-header {       
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-weight: bolder;
+}
+.assessed-fees-details{
+    border-collapse: collapse;
+    width: 100%;
+}
+.fees-alignment{
+    padding-left: 20px;
+}
+.amount-right-align{
+    text-align: right;
+    padding-right: 20px;  
+}    
+.total{
+    width: 100%;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: right;
+    font-weight: bolder;
+    padding-right: 20px
+}
+.payment-overline{
+    text-decoration: overline;
+}
+.schedule-of-payment{
+    width: 100%;
+    background-color: rgb(156, 156, 248, 0.973); 
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+}
+.payment{
+   border-collapse: collapse;
+}
+.payment td{
+   text-align: center;
+   border: 1px solid #000;
+}
+.rules-on-refund{
+    width: 50%;
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+    }
+.center-align{
+    font-weight: bolder;
+    text-align: center;
+}
+.OR-date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1px;
+}
+.OR-date-pos{
+    padding-right: 60%;
+    border-width: 0px 0px 0px 0px;
+    padding-top: 100px;
+   border-style: solid;
+   border-color: black;
+}
+
+.underline{
+    text-align: center;
+    position: absolute;
+    width: 16%;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.approved-by{
+    border-width: 0px 1px;
+   border-style: solid;
+   border-color: black;  
+   text-align: center;
+   padding-left: 200px;
+}
+.university-registrar{
+   border-width: 0px 1px 0px 1px;
+  border-style: solid;
+  border-color: black;  
+  text-align: center;
+  padding-right: 200px;
+}
+.underline-univ-reg{
+   text-align: center;   
+   border-top: 1px solid black;
+   width: 30%;
+   font-weight: bold;
+}
+.date-print{
+    text-align: right;
+    font-size: small;
+    border-width: 0px 1px 0px 1px;
+   border-style: solid;
+   border-color: black;
+}
+.keep-certificate{
+    width: 100%;
+    background-color: rgb(156, 156, 248, 0.973); 
+    border-width: 1px;
+   border-style: solid;
+   border-color: black;
+   text-align: center;
+   font-weight: bold;
+   line-height: 8px;
+}
+.empty-space{
+   height: 500px;
+   border-width: 0px 1px;
+   border-style: solid;
+   border-color: black;
+}
